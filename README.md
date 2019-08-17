@@ -14,7 +14,7 @@ data contains two columns source and destination each edge in graph
 
 
 Mapping the problem into a supervised learning problem:\
-Generated training samples of good and bad links from given directed graph and for each link got some features like no of\ followers, is he followed back, page rank, katz score, adar index, some svd fetures of adj matrix, some weight features etc.\ and trained ml model based on these features to predict link.
+Generated training samples of good and bad links from given directed graph and for each link got some features like no of followers, is he followed back, page rank, katz score, adar index, some svd fetures of adj matrix, some weight features etc. and trained ml model based on these features to predict link.
 
 Some reference papers and videos :
 - https://www.cs.cornell.edu/home/kleinber/link-pred.pdf
